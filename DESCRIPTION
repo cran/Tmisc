@@ -1,6 +1,6 @@
 Package: Tmisc
 Title: Turner Miscellaneous
-Version: 0.1.5
+Version: 0.1.6
 Author: Stephen Turner <vustephen@gmail.com>
 Maintainer: Stephen Turner <vustephen@gmail.com>
 Description: Miscellaneous data and utility functions
@@ -11,6 +11,6 @@ License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1
 NeedsCompilation: no
-Packaged: 2016-02-03 16:36:28 UTC; sdt5z
+Packaged: 2016-06-06 14:04:11 UTC; sdt5z
 Repository: CRAN
-Date/Publication: 2016-02-03 22:19:19
+Date/Publication: 2016-06-06 17:56:34

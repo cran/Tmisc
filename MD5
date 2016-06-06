@@ -1,5 +1,6 @@
-ab13fba07bb619fd075d771260cd4c2e *DESCRIPTION
-fd0805a4f3d97e0bc5dfe9d2d6bbffb5 *NAMESPACE
+263b56d4026071722a143a2363a0de76 *DESCRIPTION
+f17a844ec4ba5dcafb8a4a87cfe014fd *NAMESPACE
+37ddabc088cfa0df9257669b7324c565 *NEWS.md
 ea764a51c1e3a7ad2f7773f1719f827a *R/Tcols.R
 ff9786958bf23533577264629fd8cb03 *R/Tmisc-package.R
 9a2900e89629636c8bc7169855b1ca96 *R/counts2fpkm.R
@@ -8,6 +9,7 @@ ff9786958bf23533577264629fd8cb03 *R/Tmisc-package.R
 ba60687e9b80c93972a7af05240d3a63 *R/dfsigfig.R
 14688cd637ef2adbcb9f0c360056856f *R/dokuwiki.R
 9ae68ef3a41d0f627317c776a0ed7dca *R/ellipses.R
+c6ddcffc3675e782209b067edec6d8e8 *R/fisherp.R
 f8f7515f8d627a5e1b4507a02b068034 *R/lmp.R
 9eb16f92e112b0f95031c1f89db738f3 *R/lowestnonzero.R
 e76b85ee41f137cdac15726569585386 *R/lsa.R
@@ -26,7 +28,7 @@ f58989350e245eb2bcbcdc3611c9c80c *R/saveit.R
 75b91786a88a9714b04ddb7482c5f8f5 *R/strSort.R
 714226fa81f3b5e7da144be6ffc48cef *R/unfactor.R
 6166c0d9c8c0011d2fee40bdcaf53646 *R/unrowname.R
-4dd4b7d7531b0f3c7679cdebfc43af03 *README.md
+364e5c720522b317e5a4a82a21ea7ed6 *README.md
 8f74ff2ee0950eb429e548dc9eb1ae23 *data/Tcols.rda
 97125c60f8e3bcc52b1e3b3f9239c950 *data/quartet.rda
 a91128a19b8130df07b9186c8ab8004d *man/Tcols.Rd
@@ -37,6 +39,7 @@ cdcd2ecc898cc7bfd0f586a4ee3a0481 *man/deseqresult2tbl.Rd
 c45b743cbfda19a75a5e06f00795cfcd *man/dfsigfig.Rd
 bd2048181d8d6705c7941709bae4bad4 *man/dokuwiki.Rd
 fdb19cb181eb6284560f3f02ae7b805b *man/ellipses.Rd
+914e08fde3d144e9d35bbb2c3ed67668 *man/fisherp.Rd
 7134f764688f9c8d0dee72a73961e1ab *man/grapes-nin-grapes.Rd
 41a9cd29e90b2e9db112de5e9be1e275 *man/lmp.Rd
 cbab080a4cfb32834ef5f3e5a7205609 *man/lowestnonzero.Rd
