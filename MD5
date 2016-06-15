@@ -1,6 +1,6 @@
-263b56d4026071722a143a2363a0de76 *DESCRIPTION
-f17a844ec4ba5dcafb8a4a87cfe014fd *NAMESPACE
-37ddabc088cfa0df9257669b7324c565 *NEWS.md
+63e3646656bdd352f0cd97ac4fd7c5d8 *DESCRIPTION
+b260ceaa60b694a27c659471878aeaeb *NAMESPACE
+41ac6d41805d8aee7cdc4bb5cad953a5 *NEWS.md
 ea764a51c1e3a7ad2f7773f1719f827a *R/Tcols.R
 ff9786958bf23533577264629fd8cb03 *R/Tmisc-package.R
 9a2900e89629636c8bc7169855b1ca96 *R/counts2fpkm.R
@@ -10,6 +10,7 @@ ba60687e9b80c93972a7af05240d3a63 *R/dfsigfig.R
 14688cd637ef2adbcb9f0c360056856f *R/dokuwiki.R
 9ae68ef3a41d0f627317c776a0ed7dca *R/ellipses.R
 c6ddcffc3675e782209b067edec6d8e8 *R/fisherp.R
+a44041fad4d429852267b94ad9b5c1af *R/gghues.R
 f8f7515f8d627a5e1b4507a02b068034 *R/lmp.R
 9eb16f92e112b0f95031c1f89db738f3 *R/lowestnonzero.R
 e76b85ee41f137cdac15726569585386 *R/lsa.R
@@ -40,6 +41,7 @@ c45b743cbfda19a75a5e06f00795cfcd *man/dfsigfig.Rd
 bd2048181d8d6705c7941709bae4bad4 *man/dokuwiki.Rd
 fdb19cb181eb6284560f3f02ae7b805b *man/ellipses.Rd
 914e08fde3d144e9d35bbb2c3ed67668 *man/fisherp.Rd
+937af361fffc6703cd2e4504a6555cb5 *man/gghues.Rd
 7134f764688f9c8d0dee72a73961e1ab *man/grapes-nin-grapes.Rd
 41a9cd29e90b2e9db112de5e9be1e275 *man/lmp.Rd
 cbab080a4cfb32834ef5f3e5a7205609 *man/lowestnonzero.Rd
