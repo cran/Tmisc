@@ -1,6 +1,6 @@
 Package: Tmisc
 Title: Turner Miscellaneous
-Version: 0.1.7
+Version: 0.1.8
 Author: Stephen Turner <vustephen@gmail.com>
 Maintainer: Stephen Turner <vustephen@gmail.com>
 Description: Miscellaneous data and utility functions
@@ -10,7 +10,8 @@ Imports: dplyr, utils
 License: GPL-3
 LazyData: true
 RoxygenNote: 5.0.1
+Suggests: ggplot2, reshape2
 NeedsCompilation: no
-Packaged: 2016-06-15 17:19:38 UTC; sdt5z
+Packaged: 2016-07-21 18:19:30 UTC; sdt5z
 Repository: CRAN
-Date/Publication: 2016-06-15 21:59:09
+Date/Publication: 2016-07-22 01:08:58
