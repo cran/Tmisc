@@ -1,6 +1,6 @@
 Package: Tmisc
 Title: Turner Miscellaneous
-Version: 0.1.14
+Version: 0.1.15
 Authors@R: person("Stephen", "Turner", email = "vustephen@gmail.com", role = c("aut", "cre"))
 Maintainer: Stephen Turner <vustephen@gmail.com>
 Description: Miscellaneous utility functions for data manipulation,
@@ -12,7 +12,7 @@ LazyData: true
 RoxygenNote: 6.0.1
 Suggests: ggplot2, reshape2
 NeedsCompilation: no
-Packaged: 2017-05-08 19:14:22 UTC; sdt5z
+Packaged: 2017-05-16 20:56:32 UTC; sdt5z
 Author: Stephen Turner [aut, cre]
 Repository: CRAN
-Date/Publication: 2017-05-08 19:21:03 UTC
+Date/Publication: 2017-05-16 21:04:33 UTC
