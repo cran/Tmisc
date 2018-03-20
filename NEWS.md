@@ -1,3 +1,16 @@
+# Tmisc 0.1.19 
+
+This is primarily a cleanup release. Several functions were included in the Tmisc package early on while packages such as [janitor](https://CRAN.R-project.org/package=janitor) were in development. This release removes (note, _removes_, doesn't deprecate) functions that were previously copied from other packages, introducing a few potentially breaking changes.
+
+- Removed `set_names()` as this is exported from rlang.
+- Removed `beep()`. Use the **[beepr](https://CRAN.R-project.org/package=beepr)** package instead.
+- Removed `remove_empty_cols()`, `remove_empty_rows()`, `convert_to_NA()` and `clean_names()`. Use `remove_empty()`, etc., from the **[janitor](https://CRAN.R-project.org/package=janitor)** package instead.
+- Removed `unrowname()`. Use `magrittr::set_rownames()` (loaded with tidyverse).
+
+# Tmisc 0.1.18
+
+- Added an RMarkdown template.
+
 # Tmisc 0.1.17
 
 - Add in to insert ` = `. Optionally map the keyboard shortcut to Alt+`-` to insert `=` instead of the traditional `<-`.
