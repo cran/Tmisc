@@ -11,14 +11,17 @@
 #' @return A data.frame with factors converted to characters.
 #' 
 #' @examples
+#' \dontrun{
 #' df <- data.frame(a = letters[1:5], x = 1:5, y = LETTERS[1:5], stringsAsFactors = TRUE)
 #' str(df)
 #' df <- unfactor(df)
 #' str(df)
+#' }
 #'   
 #' @export
 
 unfactor <- function(df) {
+    .Deprecated("mutate_if(is.factor, as.character)")
     # Find the factors
     id <- sapply(df, is.factor)
     # Convert to characters
