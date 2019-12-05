@@ -1,3 +1,7 @@
+# Tmisc 0.1.22
+
+- Bugfixes for R 4.0.0 compatibility.
+
 # Tmisc 0.1.20
 
 - Deprecated several functions in favor of tidyverse alternatives.
