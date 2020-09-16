@@ -1,3 +1,11 @@
+# Tmisc 1.0.0
+
+- Bugfixes for R devel checks.
+- Move orphan functions to utils.
+- Deprecated many long superseded functions.
+- Deprecated some no longer useful gene expression functions.
+- New PDF template.
+
 # Tmisc 0.1.22
 
 - Bugfixes for R 4.0.0 compatibility.
@@ -56,7 +64,7 @@ This is primarily a cleanup release. Several functions were included in the Tmis
 - `keep_top_n()` thanks to [Jeroen Janssens](https://gist.github.com/jeroenjanssens/1c628c7e07429e5f0f2245e8598ec8e9).
 - `deseqresult2tbl()` now lets you name the column extracted from the DESeq result's `rownames` anything you want.
 - Added the [Datasaurus Dozen](https://www.autodeskresearch.com/publications/samestats) built-in dataset (`datasaurus`).
-- Small updates to enable documentation with [pkgdown](https://github.com/hadley/pkgdown).
+- Small updates to enable documentation with [pkgdown](https://github.com/r-lib/pkgdown).
 - Inconsequential update to `%nin%`.
 
 # Tmisc 0.1.13
