@@ -53,7 +53,7 @@ jsd <- function(M, pseudocount=1e-6, normalizeCounts=FALSE) {
 
 #' Linear model p-value
 #' 
-#' Extract F-test p-value from a linear model object. Can also use \code{broom::glance(fit)}. Originally described at \url{https://web.archive.org/web/20200829213926/https://gettinggeneticsdone.blogspot.com/2011/01/rstats-function-for-extracting-f-test-p.html}.
+#' Extract F-test p-value from a linear model object. Can also use \code{broom::glance(fit)}.
 #'
 #' @param modelobject A model object of class \code{lm}. 
 #' @return The p-value on the f-test of a linear model object testing the null hypothesis that R^2==0.
@@ -77,7 +77,7 @@ jsd <- function(M, pseudocount=1e-6, normalizeCounts=FALSE) {
 #' 
 #' @export
 lmp <- function (modelobject) {
-    if (class(modelobject) != "lm") stop("Not an object of class 'lm'.")
+    if (!inherits(modelobject, "lm")) stop("Not an object of class 'lm'.")
     f <- summary(modelobject)$fstatistic
     # f[1]=value, f[2]=numeratorDF, f[3]=denominatorDF
     p <- stats::pf(f[1],f[2],f[3],lower.tail=F)
